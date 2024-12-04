@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Aluraflix - Jogos Vorazes</title>
+    <style>
+        body {
+            font-family: 'Roboto Mono', monospace;
+            text-align: center;
+            background-image: url('https://img.freepik.com/fotos-gratis/fundo-de-textura-de-ardosia_24972-292.jpg?size=626&ext=jpg');
+            background-color: #000000;
+            background-size: cover;
+            background-position: center top;
+            background-repeat: no-repeat;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+        }
+
+        h1 {
+            color: #ffffff;
+            font-size: 2em;
+        }
+
+        .chamada {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .chamada-texto h2 {
+            color: #ffffff;
+            font-size: 2.5em;
+        }
+
+        .chamada-texto p {
+            color: #FFFAFA;
+            font-size: 1.2em;
+        }
+
+        .chamada-video iframe {
+            border-radius: 10px;
+        }
+
+        .categoria {
+            padding: 40px;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .categoria h2 {
+            color: #ffffff;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .categoria-videos {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .categoria-videos a {
+            margin: 10px;
+        }
+
+        .categoria-videos img {
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        .form-wrapper {
+            margin: 0 0 15px;
+        }
+
+        .form-wrapper input {
+            display: inline;
+            margin: 0 auto;
+            padding: 10px 15px;
+        }
+
+        .form-wrapper button {
+            border: 0;
+            color: #FFFAFA;
+            background: #DA1E26;
+            font-weight: bold;
+            padding: 15px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            margin-top: 20px;
+            cursor: pointer;
+            transition: .3s;
+        }
+
+        .form-wrapper button:hover {
+            opacity: .8;
+        }
+
+        .nomeFilme {
+            width: 200px;
+            color: #FFF;
+        }
+
+        .filme p {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>ALURAFLIX</h1>
+    </header>
+
+    <section class="chamada">
+        <div class="chamada-texto">
+            <h2>JOGOS VORAZES</h2>
+            <p>#jogos-vorazes</p>
+        </div>
+
+        <div class="chamada-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Nw5D6JW9swg"
+                title="Trailer oficial Jogos Vorazes" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <section class="categoria">
+        <h2>Filmes e séries</h2>
+        <div class="categoria-videos">
+            <a href="https://www.youtube.com/watch?v=Nw5D6JW9swg">
+                <img src="https://img.youtube.com/vi/Nw5D6JW9swg/maxresdefault.jpg" alt="Capa do vídeo Jogos Vorazes" />
+            </a>
+            <a href="https://www.youtube.com/watch?v=jqkcL_FTwqA&t=256s">
+                <img src="https://img.youtube.com/vi/jqkcL_FTwqA/maxresdefault.jpg" alt="Capa do vídeo Jogos Vorazes - Parte 2" />
+            </a>
+            <a href="https://www.youtube.com/watch?v=rfjREzPCwC0">
+                <img src="https://img.youtube.com/vi/rfjREzPCwC0/maxresdefault.jpg" alt="Capa do vídeo Jogos Vorazes - Recrutamento" />
+            </a>
+        </div>
+    </section>
+
+</body>
+
+</html>
